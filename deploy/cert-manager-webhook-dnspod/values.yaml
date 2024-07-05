@@ -29,8 +29,8 @@ clusterIssuer:
 # imagePullSecrets:
 #   - name: regcred
 image:
-  repository: qqshfox/cert-manager-webhook-dnspod
-  #tag: latest
+  repository: toodo/cert-manager-webhook-dnspod
+  tag: latest
   pullPolicy: IfNotPresent
 
 nameOverride: ""
